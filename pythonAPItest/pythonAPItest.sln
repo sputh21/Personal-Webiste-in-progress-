@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pythonAPItest", "pythonAPItest.pyproj", "{DDC948FA-3E83-4B96-B2DF-A1EE7ED7C23A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC948FA-3E83-4B96-B2DF-A1EE7ED7C23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC948FA-3E83-4B96-B2DF-A1EE7ED7C23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43191899-6E0E-45CD-B177-7F8D26A09111}
+	EndGlobalSection
+EndGlobal
