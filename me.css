@@ -5,7 +5,8 @@
 .backgroundImage{   
     background-image: url('./compute-ea4c57a4.png');
     background-size:cover;
-    background-repeat:no-repeat;
+    background-repeat:round;
+    
     
     height:100vh;
 }
@@ -90,17 +91,13 @@
     height:120px;
     margin:0px auto;
 }
-.Education:focus .eduBlurb{
-    transition:0.3s;
-    color:rgb(240, 248, 255);
-    
-    
-}
 .Education:focus{
     width:800px;
 }
-
-
+.Education:focus .eduBlurb{
+    transition:0.3s;
+    color:rgb(255, 255, 255);  
+}
 .eduBlurb{
     transition:0.3s;
     text-align:center;
@@ -115,6 +112,24 @@
     src: url(FiraCode-VariableFont_wght.ttf);
 }
 
+.Music{
+    
+        background-blend-mode:soft-light;
+        position:relative;
+        text-align:center;
+        border-color:red;
+        background-color:rgba(41, 41, 43, 0.72);
+        border-style:solid;
+        width:1900px;
+        height:300px;
+        top:60px;
+        border-radius:0px;
+        transition:0.3s; 
+        color:rgb(8, 6, 4);
+        margin:0px auto;
+        
+        
+}
 
 
 
