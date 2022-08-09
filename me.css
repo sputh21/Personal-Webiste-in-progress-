@@ -31,8 +31,8 @@
 }
 
 .imgOverlay{
-    background-color:black;
-    color:black;
+    background-color:rgba(0, 0, 0, 0.204);
+    color:rgba(0, 0, 0, 0.048);
     width:500px;
     height:500px;
     top:50px;
@@ -41,6 +41,8 @@
 }
 .Education{
         background-image: url("umassMap.jpg");
+        background-blend-mode:soft-light;
+        
         position:relative;
         text-align:center;
         border-color:red;
@@ -50,9 +52,9 @@
         height:500px;
         border-radius:0px;
         transition:0.3s; 
-        color:rgba(8, 6, 4, 0.735);
+        color:rgb(8, 6, 4);
         top:50px;
-        left:20px;
+        margin:0px auto;
 }
 .Footer{
     position:relative;
@@ -74,22 +76,29 @@
     top:10px;
     transition:0.5s;
     font-size: 90px;
-    color:rgb(80, 79, 82);
+    color:rgb(0, 0, 0);
 }
 .Education:focus .EducationTxt {
     transition:0.3s;
-    top:-200px;
+    top:-140px;
     
 }
 .Education:focus .Footer{
     transition:0.3s;
-    top:290px;
+    top:350px;
+    width:770px;
+    height:120px;
+    margin:0px auto;
 }
 .Education:focus .eduBlurb{
     transition:0.3s;
     color:rgb(240, 248, 255);
+    
+    
 }
-
+.Education:focus{
+    width:800px;
+}
 
 
 .eduBlurb{
@@ -112,30 +121,3 @@
 
 
 
-.FavoriteMusic{
-    position:relative;
-    border-style:solid;
-    border-color:red;
-    background-color:rgba(41, 41, 43, 0.877);
-    text-align:center;
-    width:500px;
-    height:500px;
-    left:520px;
-    top:-200px;
-    color:rgba(0, 0, 0, 0.471);
-    border-radius:0px;
-}
-
-.YouTube{
-    position:relative;
-    border-style:solid;
-    border-color:red;
-    background-color:rgba(41, 41, 43, 0.877);
-    color:antiquewhite;
-    text-align:center;
-    width:500px;
-    height:500px;
-    top:-960px;
-    left:900px;
-    border-radius:0px;
-}
