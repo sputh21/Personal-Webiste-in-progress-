@@ -114,11 +114,10 @@
 }
 
 .Music{
-    
         background-blend-mode:soft-light;
         position:relative;
         text-align:center;
-        height: 600px;
+        height: 650px;
         background-color:rgba(41, 41, 43, 0.897);
         border-style:solid;
         width:98vw;
@@ -129,9 +128,15 @@
         border-radius:0px;
         transition:0.3s; 
         color:white;
-        margin:0px auto;
-        
-        
+        margin:0px auto;       
+}
+.playlist{
+    position:relative;
+    border-radius:15px;
+    top:20px;
+    width:1850px;
+    height:550px;
+    
 }
 
 
