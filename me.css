@@ -2,18 +2,29 @@
     margin:0px;
     padding:0px;
 }
+@font-face {
+    font-family: CodingFont;
+    src: url(FiraCode-VariableFont_wght.ttf);
+}
+
+
 .backgroundImage{   
     background-image: url('./compute-ea4c57a4.png');
+   
     background-size:contain;
+    height:max-content;
     background-repeat:repeat;
-    height:200vh;
-    width:100vw;
+   
+  
+  
+    
+ 
+    
 }
-.overlay{
-    height:100vh;
-    width:98vw;
-    background-color: rgba(19, 18, 18, 0.3);
-}
+
+
+
+
 .header{
     position:relative;
     text-align: center;
@@ -31,6 +42,8 @@
     position:relative;
     left:-20px;
 }
+
+
 
 .imgOverlay{
     background-color:rgba(0, 0, 0, 0.204);
@@ -108,36 +121,27 @@
     font-family:CodingFont;
     font-size:13px; 
 }
-@font-face {
-    font-family: CodingFont;
-    src: url(FiraCode-VariableFont_wght.ttf);
-}
 
 .Music{
-        background-blend-mode:soft-light;
         position:relative;
-        text-align:center;
-        height: 650px;
-        background-color:rgba(41, 41, 43, 0.897);
+        height: 550px;
         border-style:solid;
-        width:98vw;
-        border-color: red;
+        width: 96vw;
+        border-color: rgb(73, 18, 2);
         top:100px;
-        font-family: CodingFont;
-        font-size: larger;
-        border-radius:0px;
-        transition:0.3s; 
+        border-radius:20px;
+        
         color:white;
         margin:0px auto;       
 }
 .playlist{
-    position:relative;
-    border-radius:15px;
-    top:20px;
-    width:1850px;
     height:550px;
-    
+    width:96vw;
+    border-radius: 20px;
 }
+
+
+
 
 
 
