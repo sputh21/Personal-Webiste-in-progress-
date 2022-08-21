@@ -1,0 +1,61 @@
+.Music{
+    position:relative;
+    height: 1800px;
+    border-style:solid;
+    width: 96vw;
+    border-color: rgba(197, 25, 25, 0);
+    top:100px;
+    border-radius:20px;
+    color:white;
+    margin:0px auto;  
+    top:130px;
+}
+.RapList{
+    width:45vw;
+    height:50vh;
+    position:relative;
+    top:50px;
+    left:20px;
+    margin:0px auto;
+} 
+.LeagueList{
+    width:45vw;
+    height:50vh;
+    position:relative;
+    top:50px;
+    left:100px;
+    margin:0px auto; 
+}
+.electricList{
+    width:40vw;
+    height:50vh;
+    position:relative;
+    top:60px;
+    margin:0px auto;
+    left:60px; 
+}
+.rockList{
+    width:40vw;
+    height:50vh;
+    position:relative;
+    top:60px;
+    left:250px;
+    margin:0px auto; 
+}
+.popList{
+    width:45vw;
+    height:50vh;
+    position:relative;
+    top:80px;
+    left:20px;
+    margin:0px auto; 
+}
+.indianList{
+    width:45vw;
+    height:50vh;
+    position:relative;
+    top:80px;
+    left: 100px;
+    margin:0px auto;
+}
+ 

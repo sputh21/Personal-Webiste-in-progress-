@@ -1,60 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: CodingFont;
+    src: url(FiraCode-VariableFont_wght.ttf);
+}
+
+
+.backgroundImage{   
+    background-image: url('./compute-ea4c57a4.png');
+    background-size:contain;
+    height:100%;
+    width:100%;
+    background-repeat:repeat;
+      
+}
 .header{
     position:relative;
     text-align: center;
-    background-color:black;
-    height:130px;
-    top:-40px;
-    width:2000px;
-    left:-30px;
-   
+    background-color:rgb(23, 39, 83);
+    height:100px;
+    width:70vw;
+    left:250px;
+    top:20px;
+    font-size:40px;
+    color:rgb(88, 87, 87);
+    border-radius:20px;
 }
 .headerTXT{
     position:relative;
-    top: 50px;
-    text-align:center;
-    color:white;
-    font-size:60px;
+    left:-20px;
 }
 
-.Education{
-    position:relative;
-    text-align:center;
-    border-color:red;
-    background-color:aqua;
-    border-style:solid;
-    width:500px;
-    height:500px;
-    border-radius:20px;
-    transition:0.5s; 
-}
-.Education:active{
-   
-}
 
-.FavoriteMusic{
-    position:relative;
-    border-style:solid;
-    border-color:red;
-    background-color:black;
-    text-align:center;
-    width:500px;
-    height:500px;
-    left:450px;
-    top:-200px;
-    border-radius:30px;
-}
-.FavoriteMusic:active{
 
-}
 
-.YouTube{
-    position:relative;
-    border-style:solid;
-    border-color:red;
-    text-align:center;
-    width:500px;
-    height:500px;
-    top:-1000px;
-    left:900px;
-    border-radius:30px;
-}
+
+
+
+
+
