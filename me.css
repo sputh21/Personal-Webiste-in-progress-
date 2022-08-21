@@ -13,7 +13,8 @@
     background-size:contain;
     height:100%;
     width:100%;
-    background-repeat:repeat-y;  
+    background-repeat:repeat;
+      
 }
 .header{
     position:relative;
@@ -31,26 +32,8 @@
     position:relative;
     left:-20px;
 }
-.Youtube{
-    position:relative;
-    height: 800px;
-    border-style:solid;
-    width: 96vw;
-    border-color: rgb(73, 18, 2);
-    top:100px;
-    border-radius:20px;
-    color:white;
-    margin:0px auto;  
-    top:130px;
-}
-.temp{
-    height:500px;
-    position:relative;
-    border-color:red;
-    border-style: solid;
-    top:200px;
-    
-}
+
+
 
 
 
