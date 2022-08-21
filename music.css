@@ -1,0 +1,27 @@
+.Music{
+    position:relative;
+    height: 550px;
+    border-style:solid;
+    width: 96vw;
+    border-color: rgb(73, 18, 2);
+    top:100px;
+    border-radius:20px;
+    color:white;
+    margin:0px auto; 
+    transition:0.3s;      
+}
+.Music:hover{
+    height:700px;
+    transition:0.3s;
+}
+
+.playlist{
+    height:550px;
+    width:96vw;
+    border-radius: 20px;
+    transition:0.3s;
+}
+.playlist:hover{
+    height:700px;
+    transition:0.3s;
+}
