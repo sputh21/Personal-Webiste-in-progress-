@@ -1,0 +1,76 @@
+.imgOverlay{
+    background-color:rgba(0, 0, 0, 0.204);
+    color:rgba(0, 0, 0, 0.048);
+    width:500px;
+    height:500px;
+    top:50px;
+    left:20px;
+    position:relative;
+}
+.Education{
+        background-image: url("umassMap.jpg");
+        background-blend-mode:soft-light;
+        
+        position:relative;
+        text-align:center;
+        border-color:red;
+        background-color:rgba(41, 41, 43, 0.72);
+        border-style:solid;
+        width:500px;
+        height:500px;
+        border-radius:0px;
+        transition:0.3s; 
+        color:rgb(8, 6, 4);
+        top:50px;
+        margin:0px auto;
+}
+.Footer{
+    position:relative;
+    text-align:center;
+    border-color:black; 
+    background-color:rgb(18, 59, 112);
+    border-style:solid;
+    width:490px;
+    height:200px;
+    border-radius:0px;
+    transition:0.3s; 
+    color:rgb(250, 235, 215);
+    top:155px;
+    left:0px;
+}
+
+.EducationTxt{
+    position:relative;
+    top:10px;
+    transition:0.5s;
+    font-size: 90px;
+    color:rgb(0, 0, 0);
+}
+.Education:focus .EducationTxt {
+    transition:0.3s;
+    top:-140px;
+    
+}
+.Education:focus .Footer{
+    transition:0.3s;
+    top:350px;
+    width:770px;
+    height:120px;
+    margin:0px auto;
+}
+.Education:focus{
+    width:800px;
+}
+.Education:focus .eduBlurb{
+    transition:0.3s;
+    color:rgb(255, 255, 255);  
+}
+.eduBlurb{
+    transition:0.3s;
+    text-align:center;
+    position:relative;
+    top: 10px;
+    color:rgba(240, 248, 255, 0);
+    font-family:CodingFont;
+    font-size:13px; 
+}
